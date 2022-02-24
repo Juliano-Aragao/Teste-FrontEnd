@@ -1,0 +1,136 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/*  Cabeçalho */
+
+header{
+    background-color: goldenrod;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #f02d2d;
+
+}
+
+/*  Grips  */
+
+.contanier{
+    background-color: #EEE;
+    min-height: 60vh;  /* espaçamento minimo de 60% que será oculpado, */
+    padding: 50px;
+}
+
+.img_profissionais{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.face{
+    
+    width: 31%;
+    display: inline-block;
+    text-decoration: none;
+    margin:  1% 1%;
+    padding: 20px;
+}
+
+/* foto do profissional */
+
+.img-face{
+    height: 200px;
+    width: 200px;
+    margin-bottom:  10px;
+    background-position: center;
+    background-size: cover ;
+  
+}
+
+#img-1{
+    background-color: rgb(194, 226, 226);
+    background-image:url('/img/comput.png') ;
+}
+#img-2{
+    background-color: rgb(194, 226, 226);
+    background-image:url('../img/eng-civil.png') ;
+}
+#img-3{
+    background-color: rgb(194, 226, 226);
+    background-image: url('../img/eng-elet.png');
+}
+
+#img-4{
+    background-color: rgb(194, 226, 226);
+    background-image: url('../img/eng-mec.png');
+}
+
+#img-5{
+    background-color: rgb(194, 226, 226);
+    background-image: url(../img/med-veter.png);
+}
+#img-6{
+    background-color: rgb(194, 226, 226);
+    background-image: url('../img/medicina.png');
+}
+
+h3{
+    margin-bottom: 10px;
+    color: rgb(248, 172, 8);
+    padding-left: px;
+    font-size: 22px;
+}
+
+.face p{
+    margin-bottom: 10px;
+    color: #103af1;
+    font-weight: bold;
+}
+.btn{
+    color: rgb(53, 117, 96);
+    display: block;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:  rgb(194, 226, 226);;
+    padding: 15px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.btn:houver{
+    background-color: blue;
+}
+
+/* footer*/
+
+footer{
+    background-color: goldenrod;
+    padding: 30px;
+    text-align: center;
+    border-top: 3px solid rgb(202, 31, 31);
+
+}
+
+.btn-b{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(31, 28, 28);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: .9rem;
+    background-color:  rgb(194, 226, 226);
+    text-decoration: none;
+    align-items: center;
+    margin: 50px;
+      
+  
+  
+
+}
